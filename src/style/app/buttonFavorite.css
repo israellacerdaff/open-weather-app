@@ -1,0 +1,15 @@
+.button__favorite {
+  margin: 40px 0px;
+  padding: 10px;
+}
+
+.button__favorite:active {
+  font-size: 14px;
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 600px){
+  .button__favorite {
+    width: 25%;
+  }
+}

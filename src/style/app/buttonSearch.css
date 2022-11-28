@@ -1,0 +1,16 @@
+.button__search {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.button__search:hover {
+  box-shadow: none;
+  padding: 10px;
+}
+
+.button__search:active {
+  font-size: 17px;
+  transition: 0.1s;
+}

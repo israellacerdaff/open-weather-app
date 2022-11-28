@@ -1,0 +1,8 @@
+{
+  "short_name": "Weather App",
+  "name": "SPA de previsão do tempo",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#36aec4",
+  "background_color": "##2b9eb3"
+}

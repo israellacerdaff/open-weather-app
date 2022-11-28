@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 2em;
+}
+
+.header h1 {
+  color: rgb(232, 51, 93);
+  font-weight: bold;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 0px;
+}
+
+.header .title-header {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.header h2 {
+  color: rgb(17, 13, 47);
+  font-weight: bold;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 0px;
+}
+
+
+.header .companyLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companyLogo img {
+  width: 150px;
+}
+
+.header span{
+  text-align: center;
+  margin-top: -25px;
+  opacity: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 2.8em;
+  }
+}

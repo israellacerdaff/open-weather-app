@@ -1,0 +1,59 @@
+#favorite__box {
+  animation: cardFavoriteAnimation 0.7s 1;
+  margin: 15px;
+
+  transition: all 0.4s;
+}
+
+@keyframes cardFavoriteAnimation {
+  20% {
+    background-color: var(--text-color);
+    font-size: 102%;
+  }
+}
+
+#favorite__box:hover {
+  background-color: var(--error-color);
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  padding: 2em;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+#favorite__box:active {
+  background-color: var(--text-color);
+}
+
+#favorite__box .locale {
+  font-size: 1.5em;
+  margin-bottom: -20px;
+}
+
+#favorite__box .desc {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+#favorite__box .temp__Info h2 {
+  font-size: 6em;
+}
+
+.savedTime {
+  color: var(--text-color);
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  #favorite__box .locale {
+    font-size: 1.25em;
+    margin-bottom: -15px;
+  }
+  #favorite__box:hover {
+    padding: 2rem;
+    margin: 2em;
+  }
+}

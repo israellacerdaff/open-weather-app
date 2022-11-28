@@ -1,0 +1,40 @@
+.search__city {
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+}
+
+.search__city ::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.search {
+  width: 40%;
+  padding: 10px;
+  color: var(--text-color);
+  font-size: 20px;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.search:hover {
+  border-radius: 15px;
+}
+
+.search:focus {
+  color: var(--text-color);
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 4px 8px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.4s ease-out;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    width: 50%;
+  }
+}
