@@ -1,12 +1,5 @@
 # Weather App
 
-## Contexto
-Você deverá criar um SPA de previsão do tempo, onde requisitos são:
-- Deve ser possível pesquisar a previsão do tempo para uma cidade.
-- Exibir a previsão caso disponível.
-- Tratar erro caso a previsão esteja indisponível, ou acontece algo inesperado.
-Para conseguir realizar essa tarefa você deverá utilizar a popular api do OpenWeatherMap (http://openweathermap.org/). O mock das telas do que é desejavel que tenha no aplicativo, você pode dar um toque seu no design/layout, o importante é exibir ao menos a informação básica do que for retornado pelo OpenWeatherMap.
-
 ## Técnologias usadas
 
 Front-end:
